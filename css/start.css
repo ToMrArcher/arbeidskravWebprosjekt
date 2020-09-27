@@ -24,10 +24,8 @@ p {
 }
 p:hover{
     opacity: 1;
+    text-decoration: none;
 }
-span {
+p span {
     font-size: 15px;
 }
-/*
-    fjerne underline fra link og få hele boksen klikk-able som link og ikke bare text.
-*/
