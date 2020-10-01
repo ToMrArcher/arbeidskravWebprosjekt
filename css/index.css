@@ -31,12 +31,17 @@ body {
 }
 
 .box:hover {
-   display: block;
+   /* REMOVED! display: block; */
    color: white;
    opacity: 1;
 }
 
 .box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
    position: absolute;
    opacity: 0;
    margin: 0;
