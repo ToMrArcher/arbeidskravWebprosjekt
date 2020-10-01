@@ -7,6 +7,17 @@
     <title>Arbeidskrav</title>
 
     <style>
+        h1 {
+            position: relative;
+            left: 1050px;
+        }
+
+        h2 {
+            position: relative;
+            left: 1050px;
+            top: 40px;
+        }
+
         body {
             margin: 0;
         }
@@ -17,6 +28,8 @@
             background-image: url("images/scarlettBrukbard.jpg");
             background-size: cover;
             margin: 0;
+            position: absolute;
+            top: 0px;
         }
 
         .box1 {
@@ -36,6 +49,9 @@
             position: absolute;
             opacity: 0;
             margin: 0;
+            transition-delay: 0s;
+            transition-duration: .5s;
+            transition-property: opacity;
         }
 
         .box2 {
@@ -74,10 +90,13 @@
         }
 
         .box7 {
-            width: 120px;
+            width: 150px;
             height: 150px;
             left: 840px;
             top: 360px;
+            background-image: url("images/tenor.gif");
+            background-size: cover;
+            border-radius: 25%;
         }
 
         .box8 {
@@ -97,13 +116,18 @@
 </head>
 
 <body>
+
+    <h1>Scarlett Johanson Inspiserer.</h1>
+    <h2>Dra musen over deler av bilder</h2>
+
     <div class="content">
         <div class="box box1">
             SÅ FINE ØYNE!
         </div>
-        <div class="box box2">
-            Black widow jobber i shield
-        </div>
+
+        <a href="https://en.wikipedia.org/wiki/S.H.I.E.L.D.">
+            <div class="box box2">S.H.I.E.L.D</div>
+        </a>
 
         <div class="box box3">
             HÅR FRA EN GUDOMMELIG DAME
@@ -122,7 +146,6 @@
         </div>
 
         <div class="box box7">
-            DIN PERVERSE JÆVEL!
         </div>
 
         <div class="box box8">
@@ -132,10 +155,6 @@
         <div class="box box9">
             HER HAR HUN FLERE VÅPEN
         </div>
-    </div>
-
-    <div id="text">
-        <p>Dra musen over deler av bilder</p>
     </div>
 </body>
 
